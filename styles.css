@@ -1,8 +1,9 @@
 @import url("styles/header.css");
+@import url("styles/cabecalho.css");
 
 :root {
     --cor-de-fundo: #FFFFFF;
-    --vermelhor-principal: #8E2424;
+    --vermelho-principal: #8E2424;
     --cinza-escuro: #101828;
     --cinza-claro:#667085;
     --fonte-principal: "Inter";
@@ -11,6 +12,7 @@
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
     font-size: 1rem;
     font-weight: 500;
 }
