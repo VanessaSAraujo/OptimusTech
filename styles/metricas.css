@@ -1,0 +1,39 @@
+.container__métricas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 4rem;
+    padding: 0 5em;
+}
+
+.lista__métricas {
+    display: flex;
+    gap: 4rem;
+    text-align: left;
+}
+
+.métricas__título {
+    color: var(--vermelho-principal);
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+}
+
+.métricas__subtítulo {
+    color: var(--cinza-escuro);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin: 0.5em 0em;
+}
+
+.métricas__texto {
+    color: var(--cinza-claro);
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.métricas {
+    /* margin-left: 3em; */
+    padding: 0em 1em;
+}
