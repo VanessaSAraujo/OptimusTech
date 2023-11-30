@@ -1,6 +1,8 @@
 @import url("styles/header.css");
 @import url("styles/cabecalho.css");
 @import url("styles/metricas.css");
+@import url("styles/vagas.css");
+
 
 :root {
     --cor-de-fundo: #FFFFFF;
