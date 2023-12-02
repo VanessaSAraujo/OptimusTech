@@ -1,0 +1,37 @@
+.rodapé {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.rodapé h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding-top: 6rem;
+}
+
+.rodapé p {
+    color: var(--cinza-claro);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+footer form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapé input {
+    padding: 0.6rem 0rem 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #D0D5DD;
+    width: 18rem;
+    outline: none;
+}
+
+.rodapé span {
+    color: #98A2B3;
+    font-weight: 400;
+    padding-bottom: 6rem;
+}
